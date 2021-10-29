@@ -59,7 +59,7 @@ public class Circle extends Shape {
   @Override
   public boolean equals(Object obj) {
     Circle other = (Circle) obj;
-    if (radius == other.radius && center == other.center) {
+    if (radius == other.radius && center.equals(other.center)) {
       return true;
     }
     return false;

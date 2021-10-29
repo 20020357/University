@@ -73,7 +73,7 @@ public class Rectangle extends Shape {
   @Override
   public boolean equals(Object obj) {
     Rectangle other = (Rectangle) obj;
-    if (length == other.length && width == other.width && topLeft == other.topLeft) {
+    if (length == other.length && width == other.width && topLeft.equals(other.topLeft)) {
       return true;
     }
     return false;
