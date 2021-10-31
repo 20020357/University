@@ -1,29 +1,30 @@
-public class MotoBike extends Vehicle {
-  private boolean hasSideCar;
+public class MotorBike extends Vehicle {
+  private boolean hasSidecar;
 
   /**Initialize motobike default. */
-  public MotoBike(String brand, String model, String registrationNumber,
+  public MotorBike(String brand, String model, String registrationNumber,
       Person owner, boolean hasSideCar) {
     super(brand, model, registrationNumber, owner);
-    this.hasSideCar = hasSideCar;
+    this.hasSidecar = hasSideCar;
   }
 
-  /**Check side car. */
-  public boolean isHasSideCar() {
-    return hasSideCar;
+  /**Getter has side car. */
+  public boolean isHasSidecar() {
+    return hasSidecar;
   }
 
   /**Setter has side car. */
-  public void setHasSideCar(boolean hasSideCar) {
-    this.hasSideCar = hasSideCar;
+  public void setHasSidecar(boolean hasSidecar) {
+    this.hasSidecar = hasSidecar;
   }
 
   /**Get info. */
+  @Override
   public String getInfo() {
-    return "Moto Bike:\n"
+    return "Motor Bike:\n"
       + "\tBrand: " + getBrand() + "\n" + "\tModel: " + getModel() + "\n"
       + "\tRegistration Number: " + getRegistrationNumber() + "\n"
-      + "\tHas Side Car: " + hasSideCar + "\n"
+      + "\tHas Side Car: " + hasSidecar + "\n"
       + "\tBelongs to " + owner.getName() + " - " + owner.getAddress();
   }
 }

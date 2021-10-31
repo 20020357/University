@@ -48,19 +48,19 @@ public class Person {
   }
 
   /**Get vehicle info. */
-  public String getVehicleInfo() {
+  public String getVehiclesInfo() {
     String result = name;
     if (vehicleList.size() != 0) {
-      result += " has:\n";
+      result += " has:\n\n";
       for (int i = 0; i < vehicleList.size(); i++) {
         if (vehicleList.get(i) instanceof Car) {
           Car car = (Car) vehicleList.get(i);
           result += car.getInfo() + "\n";
         }
 
-        if (vehicleList.get(i) instanceof MotoBike) {
-          MotoBike motoBike = (MotoBike) vehicleList.get(i);
-          result += motoBike.getInfo() + "\n";
+        if (vehicleList.get(i) instanceof MotorBike) {
+          MotorBike motorBike = (MotorBike) vehicleList.get(i);
+          result += motorBike.getInfo() + "\n";
         }
       }
     } else {

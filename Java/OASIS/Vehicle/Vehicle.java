@@ -16,7 +16,7 @@ public abstract class Vehicle {
   public abstract String getInfo();
 
   /**Transfer owner ship. */
-  public void transferOwnerShip(Person newOwner) {
+  public void transferOwnership(Person newOwner) {
     this.owner = newOwner;
   }
 

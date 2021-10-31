@@ -18,6 +18,7 @@ public class Car extends Vehicle {
   }
 
   /**Get info. */
+  @Override
   public String getInfo() {
     return "Car:\n"
       + "\tBrand: " + getBrand() + "\n" + "\tModel: " + getModel() + "\n"
