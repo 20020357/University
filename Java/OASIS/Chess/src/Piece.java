@@ -49,5 +49,6 @@ public abstract class Piece {
 
   /**Getter Symbol. */
   public abstract String getSymbol();
+  
   public abstract boolean canMove(Board board, int x, int y);
 }
