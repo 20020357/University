@@ -1,25 +1,25 @@
 public class Move {
   private int startX;
-  private int endX;
   private int startY;
+  private int endX;
   private int endY;
   private Piece movedPiece;
   private Piece killedPiece;
 
   /**Initialize Move with 5 parameters. */
-  public Move(int startX, int endX, int startY, int endY, Piece movedPiece) {
+  public Move(int startX, int startY, int endX, int endY, Piece movedPiece) {
     this.startX = startX;
-    this.endX = endX;
     this.startY = startY;
+    this.endX = endX;
     this.endY = endY;
     this.movedPiece = movedPiece;
   }
 
   /**Initialize Move with 6 parameters. */
-  public Move(int startX, int endX, int startY, int endY, Piece movedPiece, Piece killedPiece) {
+  public Move(int startX, int startY, int endX, int endY, Piece movedPiece, Piece killedPiece) {
     this.startX = startX;
-    this.endX = endX;
     this.startY = startY;
+    this.endX = endX;
     this.endY = endY;
     this.movedPiece = movedPiece;
     this.killedPiece = killedPiece;
@@ -87,36 +87,36 @@ public class Move {
 
   /**Getter toString. */
   public String toString() {
-    String coordinatesX = "";
+    String coordinatesEndX = "";
     switch (endX) {
       case 1:
-        coordinatesX = "a";
+        coordinatesEndX = "a";
         break;
       case 2:
-        coordinatesX = "b";
+        coordinatesEndX = "b";
         break;
       case 3:
-        coordinatesX = "c";
+        coordinatesEndX = "c";
         break;
       case 4:
-        coordinatesX = "d";
+        coordinatesEndX = "d";
         break;
       case 5:
-        coordinatesX = "e";
+        coordinatesEndX = "e";
         break;
       case 6:
-        coordinatesX = "f";
+        coordinatesEndX = "f";
         break;
       case 7:
-        coordinatesX = "g";
+        coordinatesEndX = "g";
         break;
       case 8:
-        coordinatesX = "h";
+        coordinatesEndX = "h";
         break;
       default:
         break;
     }
     return movedPiece.getColor() + "-" + movedPiece.getSymbol()
-            + coordinatesX + endY;
+            + coordinatesEndX + endY;
   }
 }
