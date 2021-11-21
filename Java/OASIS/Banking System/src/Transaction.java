@@ -15,4 +15,35 @@ public class Transaction {
     this.initialBalance = initialBalance;
     this.finalBalance = finalBalance;
   }
+
+  /**Getter transaction type String.  */
+  private String getTransactionTypeString(int type) {
+    String transactionType = "";
+    switch (type) {
+      case 1:
+        transactionType = "Nạp tiền vãng lai";
+        break;
+      case 2:
+        transactionType = "Rút tiền vãng lai";
+        break;
+      case 3:
+        transactionType = "Nạp tiền tiết kiệm";
+        break;
+      case 4:
+        transactionType = "Rút tiền tiết kiệm";
+        break;
+      default:
+        break;
+    }
+    return transactionType;
+  }
+
+  /**Getter transaction summary. */
+  public String getTransactionSummary() {
+    String transactionSummary = "- Kiểu giao dịch: " + getTransactionTypeString(type)
+                                + ". Số dư ban đầu: $" + String.format("%.2f", initialBalance)
+                                + ". Số tiền: $" + String.format("%.2f", amount)
+                                + ". Số dư cuối: $" + String.format("%.2f", finalBalance) + ".";
+    return transactionSummary;
+  }
 }

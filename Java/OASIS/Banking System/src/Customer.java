@@ -52,6 +52,11 @@ public class Customer {
 
   /**Remove account. */
   public void removeAccount(Account account) {
-    
+    for (int i = 0; i < accountList.size(); i++) {
+      if (account.equals(accountList.get(i))) {
+        accountList.remove(i);
+        break;
+      }
+    }
   }
 }
