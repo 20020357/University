@@ -3,7 +3,7 @@ HelloWorld.
  */
 public class HelloWorld {
   public static String printHello() {
-    return "HelloWorld";
+    return "Hello World";
   }
 
   public static void main(String[] args) {
