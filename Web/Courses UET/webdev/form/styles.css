@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    margin-bottom: 10px;
+}
+
+.container > div > div {
+    display: inline-block;
+}
+
+.label {
+    width: 100px;
+}
+
+.require {
+    background-color: aqua;
+}
+
+.value > input:not([type=radio], [type=file]) {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.value > label {
+    margin-right: 15px;
+}
+
+.value > textarea {
+    height: 80px;
+    width: 300px;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.school .value input[type=radio] {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+}
+
+.school .value input[type=radio]:checked {
+    background-color: cornflowerblue;
+}
+
+.submit .value > button {
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: cyan;
+    width: 80px;
+    height: 30px;
+}
+
+.submit .value > button:hover {
+    background-color: aquamarine;
+    transform: scale(1.05);
+}
+
+.error {
+    color: red;
+    font-size: x-small;
+}

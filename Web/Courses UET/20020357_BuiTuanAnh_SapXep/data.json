@@ -1,0 +1,22 @@
+[
+    {
+        "productCode": "P001",
+        "productName": "Washing Machine"
+    },
+    {
+        "productCode": "P002",
+        "productName": "Multi-function Kitchen"
+    },
+    {
+        "productCode": "P003",
+        "productName": "Heater"
+    },
+    {
+        "productCode": "P004",
+        "productName": "Air Conditioner"
+    },
+    {
+        "productCode": "P005",
+        "productName": "Fridge"
+    }
+]

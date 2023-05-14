@@ -4,14 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fad5d53-84cd-47d7-a8e5-0808524c80e9" name="Changes" comment="" />
+    <list default="true" id="4fad5d53-84cd-47d7-a8e5-0808524c80e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/app/controller/DictionaryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/app/entities/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/app/entities/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/app/model/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/app/view/DictionaryCommandline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/resources/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tuananh/dictionary/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuananh/dictionary/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/Backend/demoJPA-MySQL/src/main/java/com/backend/demoJPAMySQL/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/Backend/demoJPA-MySQL/src/main/java/com/backend/demoJPAMySQL/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/HackerRank/Nested Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/HackerRank/Nested Lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/Backend/demoBE - Use with Postman/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/Backend/demoBE - Use with Postman/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JTu3ihSfnxj8pXPEd1NhxVtRHL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,14 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/University/Web/Backend/demoBE - Use with Postman&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tuananh.dictionary" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,8 +79,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672114197031</updated>
-      <workItem from="1672114198294" duration="1000" />
+      <workItem from="1672114198294" duration="1205000" />
+      <workItem from="1672138837633" duration="67000" />
+      <workItem from="1672144063135" duration="6170000" />
+      <workItem from="1672154540233" duration="3046000" />
+      <workItem from="1672236444213" duration="6845000" />
+      <workItem from="1672387727160" duration="97000" />
+      <workItem from="1672392172270" duration="479000" />
+      <workItem from="1672393447150" duration="18597000" />
+      <workItem from="1672423941390" duration="102000" />
+      <workItem from="1672577799949" duration="3208000" />
+      <workItem from="1673013097966" duration="8049000" />
+      <workItem from="1673184553121" duration="5480000" />
+      <workItem from="1673262403350" duration="3447000" />
+      <workItem from="1673312461259" duration="1572000" />
+      <workItem from="1673358176634" duration="3638000" />
+      <workItem from="1673447322226" duration="1187000" />
+      <workItem from="1673448773775" duration="1770000" />
+      <workItem from="1673519043955" duration="3073000" />
+      <workItem from="1673530574150" duration="6479000" />
+      <workItem from="1673833370202" duration="3308000" />
+      <workItem from="1673880237182" duration="1263000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="index.js" async></script>
+    <div class="container">
+        <div class="name">
+            <div class="label">Họ tên:</div>
+            <div class="value">
+                <input class="require" type="text" autofocus />
+                <span class="error"></span>
+            </div>
+        </div>
+        <div class="address">
+            <div class="label">Địa chỉ:</div>
+            <div class="value">
+                <input type="text" />
+            </div>
+        </div>
+        <div class="gender">
+            <div class="label">Giới tính:</div>
+            <div class="value">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Nam</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Nữ</label>
+            </div>
+        </div>
+        <div class="birthday">
+            <div class="label">Ngày sinh:</div>
+            <div class="value">
+                <input class="require" type="datetime" placeholder="nn/tt/nnnn" />
+            </div>
+            <span class="error"></span>
+        </div>
+        <div class="email">
+            <div class="label">E-mail:</div>
+            <div class="value">
+                <input class="require" type="email" />
+            </div>
+            <span class="error"></span>
+        </div>
+        <div class="phone">
+            <div class="label">Điện thoại:</div>
+            <div class="value">
+                <input type="text">
+            </div>
+        </div>
+        <div class="school">
+            <div class="label">Khoá đăng ký:</div>
+
+            <div class="value">
+                <input type="radio" name="school" id="english">
+                <label for="english">Tiếng Anh</label>
+                <input type="radio" name="school" id="manage">
+                <label for="manage">Quản trị</label>
+                <input type="radio" name="school" id="it">
+                <label for="it">CNTT</label>
+            </div>
+        </div>
+        <div class="username">
+            <div class="label">Tên sử dụng:</div>
+            <div class="value">
+                <input class="require" type="text">
+            </div>
+            <span class="error"></span>
+        </div>
+        <div class="password">
+            <div class="label">Mật khẩu:</div>
+            <div class="value">
+                <input type="password">
+            </div>
+        </div>
+        <div class="re-password">
+            <div class="label">Gõ lại mật khẩu:</div>
+            <div class="value">
+                <input type="password">
+            </div>
+            <span class="error"></span>
+        </div>
+        <div class="note">
+            <div class="label">Ghi chú</div>
+            <div class="value">
+                <textarea type="text"></textarea>
+            </div>
+            <span></span>
+        </div>
+        <div class="avatar">
+            <div class="label">Ảnh chân dung:</div>
+            <div class="value">
+                <input type="file">
+            </div>
+        </div>
+        <div class="submit">
+            <div class="label"></div>
+            <div class="value">
+                <button id="accept-btn">Chấp nhận</button>
+                <button id="ignore-btn">Bỏ qua</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

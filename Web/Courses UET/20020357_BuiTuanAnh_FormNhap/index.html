@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Nhap</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form>
+            <div class="fullname">
+                <label for="fullname">Họ Tên:</label>
+                <input type="text" id ="fullname" name="fullname"> <br>
+            </div>
+            
+
+            <div class="address">
+                <label for="address">Địa chỉ:</label>
+                <input type="text" id ="address" name="address"> <br>
+            </div>
+
+            <div class="sex">
+                <label for="sex">Giới tính:</label>
+                <input type="radio" id ="male" name="sex" value ="male">
+                <label for="male">Nam</label>
+                <input type="radio" id ="female" name="sex" value="female">
+                <label for="male">Nữ</label> <br>
+            </div>
+            
+            <div class="birthday">
+                <label for="dateofbirth">Ngày sinh:</label>
+                <input type="text" id ="dateofbirth" name="dateofbirth"> <br>
+            </div>
+
+            <div class="phonenumber">
+                <label for="phonenumber">Điện thoại:</label>
+                <input type="text" id ="phonenumber" name="phonenumber"> <br>
+            </div>
+            
+            <div class="courses">
+                <label for="courses">Khóa đăng ký:</label>
+                <input type="checkbox" id ="english" name="english">
+                <label for="english">Tiếng Anh</label>
+                <input type="checkbox" id ="manage" name="manage">
+                <label for="manage">Quản Trị</label>
+                <input type="checkbox" id ="it" name="it">
+                <label for="it">CNTT</label> <br>
+            </div>
+            
+            <div class="username">
+                <label for="username">Tên sử dụng:</label>
+                <input type="text" id ="username" name="username"> <br>
+            </div>
+            
+            <div class="password">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password"> <br>
+            </div>
+            
+            <div class="checkpassword">
+                <label for="checkpassword">Gõ lại mật khẩu:</label>
+                <input type="password" id ="checkpassword" name="checkpassword"> <br>                    
+            </div>
+            
+            <div class="note">
+                <label for="Note">Ghi chú:</label>
+                <textarea type="text" name="Note"></textarea> <br>
+            </div>
+
+            <div class="image">
+                <label for="image">Ảnh chân dung:</label>
+                <input type="button" value ="Choose File">
+                <label>No file chosen</label> <br>
+            </div>
+            
+            <div class="end">
+                <input type="submit" id ="submit"value ="Chấp nhận">
+                <input type="button" id="cancel" value ="Bỏ qua">
+            </div>
+        </form>
+    </body>
+</html>

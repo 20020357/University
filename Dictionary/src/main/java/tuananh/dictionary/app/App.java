@@ -1,6 +1,6 @@
-package tuananh.dictionary;
+package tuananh.dictionary.app;
 
-import tuananh.dictionary.backend.DictionaryCommandline;
+import tuananh.dictionary.app.view.DictionaryCommandline;
 
 /**
  * Hello world!
@@ -9,6 +9,8 @@ import tuananh.dictionary.backend.DictionaryCommandline;
 public class App 
 {
     public static void main( String[] args ) {
-        new DictionaryCommandline().dictionaryBasic();
+//        new DictionaryCommandline().dictionaryBasic();
+
+        new DictionaryCommandline().dictionaryAdvance();
     }
 }

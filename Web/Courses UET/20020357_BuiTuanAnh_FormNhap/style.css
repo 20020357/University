@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 5px;
+}
+
+#fullname, #address, #dateofbirth, #username, #password, #checkpassword, #submit, #cancel {
+    background-color: yellow;    
+}
+
+#notes {
+    display: block;
+}
+
+.fullname {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullname > input {
+    width: 300px;
+}
+
+.address {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address > input {
+    width: 300px;
+}
+
+.sex {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sex > input {
+    width: 300px;
+}
+
+.birthday {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.birthday > input {
+    width: 300px;
+
+}
+
+.phonenumber {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phonenumber > input {
+    width: 300px;
+
+}
+
+.courses {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses > input {
+    width: 300px;
+
+}
+
+.username {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username > input {
+    width: 300px;
+}
+
+.password {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password > input {
+    width: 300px;
+}
+
+.checkpassword {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkpassword > input {
+    width: 300px;
+
+}
+
+.note {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note > textarea {
+    width: 300px;
+}
+
+.end {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end > input {
+    width: 300px;
+
+}

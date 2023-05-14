@@ -1,0 +1,63 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+#header {
+    height: 100px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#body {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+#body div {
+    background-color: aqua;
+    margin: 10px;
+    padding: 15px;
+}
+#body p {
+    font-size: 1.1em;
+}
+#left-block {
+    flex: 0.65;
+}
+#center-block {
+    flex: 1.25
+}
+#right-block {
+    flex: 2
+}
+div.acknowledgement {
+    color: gray;
+    font-size: x-small;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 765px) {
+    #left-block {
+        flex: 20%;
+    }
+    #center-block, #right-block {
+        flex: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #left-block, #center-block, #right-block {
+        flex: 100%
+    }
+}

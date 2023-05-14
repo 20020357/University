@@ -10,3 +10,4 @@ if __name__ == '__main__':
     for i in studentDictionary: 
         if (studentDictionary[i] == secondLowestScore):
             print(i, end = '\n')
+            

@@ -1,4 +1,4 @@
-package tuananh.dictionary.app.controller.entities;
+package tuananh.dictionary.app.entities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,9 +19,9 @@ public class Dictionary {
         words.remove(word);
     }
 
-    public Optional<Word> searchWord(String word_target) {
+    public Optional<Word> searchWordByWordTarget(String word_target) {
         return  words.stream()
-                .filter(word -> word.getWord_target().equals(word_target))
+                .filter(word -> word.getWordTarget().equals(word_target))
                 .findFirst();
     }
 
