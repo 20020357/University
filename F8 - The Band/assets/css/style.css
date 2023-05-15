@@ -83,6 +83,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 
 /* Main */
 #main {
@@ -258,7 +262,7 @@ html {
 }
 
 #content .member-list {
-    margin-top: 48px;
+    margin-top: 32px;
     /* overflow: hidden; */
 }
 
@@ -315,7 +319,7 @@ html {
 
 /* Places */
 #content .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .places-list .place-img {
@@ -362,6 +366,10 @@ html {
 .contact-info i[class*="ti-"] {
     width: 30px;
     display: inline-block;
+}
+
+.contact-info a:hover {
+    opacity: 0.73;
 }
 
 .content-section .contact-form {
