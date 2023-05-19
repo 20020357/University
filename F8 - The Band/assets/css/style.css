@@ -458,7 +458,6 @@ html {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: #fff;
 }
 
 .modal .modal-heading-icon {
@@ -500,7 +499,6 @@ html {
 .modal #buy-tickets {
     background-color: #009688;
     border: none;
-    color: #fff;
     width: 100%;
     font-size: 16px;
     text-transform: uppercase;
@@ -509,7 +507,7 @@ html {
 }
 
 .modal #buy-tickets:hover {
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .modal .modal-footer {
