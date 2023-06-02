@@ -195,9 +195,6 @@ html {
     line-height: 46px;
 }
 
-/* absolute
-    relative
-*/
 
 /* Slider */
 #slider {
@@ -238,8 +235,7 @@ html {
     width: 800px;
     max-width: 100%;
     padding: 64px 16px 112px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .content-section .section-heading {
