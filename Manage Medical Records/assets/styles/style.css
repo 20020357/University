@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main {
+
+}
+
+
+
+/* header */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+}
+
+#header .left,
+#header .right {
+    display: flex;
+}
+
+
+
+/* left */
+.left #logo {
+    padding: 0 2em;
+    margin-right: 2em;
+}
+
+.left #logo img {
+    width: 100%;
+    height: 65px;
+}
+
+.left #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 0;
+}
+
+#nav .nav-item {
+    margin: 0 1em;
+    padding: 0 1em;
+    color: #192849;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* right */
+.right .search-btn {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.right .search-btn:hover {
+    cursor: pointer;
+}
+
+.right .login-signup,
+.right .login-signup a {   
+    color: #192849;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.right .login-signup {
+    padding: 0 3em;
+    margin-left: 2em;
+}
+
+
+
+/* Slider */
+#slider {
+    position: relative;
+    padding-top: 50%;
+    margin-top: 65px;
+    background: url(../images/slider/home-slider.jpg) top center / cover no-repeat;
+}
+
+
+
+/* Content */
+#content {
+    height: 1000px;
+}
+
+
+
+/* footer */
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding: 2em 0;
+    font-size: 1em;
+}
+
+#footer .socials,
+#footer .copyright {
+    padding: 0 2em;
+}
+
+#footer .socials i {
+    padding: 0 1em;
+}
