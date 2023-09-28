@@ -6,7 +6,7 @@ package testing.blackbox;
  */
 public class App 
 {
-    public static int rectangleArea(int firstEdge, int secondEdge) {
+    public static long rectangleArea(int firstEdge, int secondEdge) {
         if (firstEdge <= 0 || secondEdge <= 0) {
             throw new IllegalArgumentException("Input không hợp lệ!");
         }
@@ -33,6 +33,26 @@ public class App
         }
         return firstEdge * secondEdge;
     }
+
+    public static double rectangleArea(double firstEdge, String secondEdge) {
+        throw new IllegalArgumentException("Input không hợp lệ!");
+    }
+
+    public static double rectangleArea(String firstEdge, double secondEdge) {
+        throw new IllegalArgumentException("Input không hợp lệ!");
+    }
+
+    public static int rectangleArea(int firstEdge, String secondEdge) {
+        throw new IllegalArgumentException("Input không hợp lệ!");
+    }
+
+    public static int rectangleArea(String firstEdge, int secondEdge) {
+        throw new IllegalArgumentException("Input không hợp lệ!");
+    }
+
+    // public static double rectangleArea(char firstEdge, String secondEdge) {
+    //     throw new IllegalArgumentException("Input không hợp lệ!");
+    // }
 
     public static void main( String[] args )
     {

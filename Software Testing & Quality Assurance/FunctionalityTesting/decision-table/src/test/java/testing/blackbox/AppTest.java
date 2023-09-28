@@ -17,7 +17,7 @@ public class AppTest
     {
         // Arrange & Action
         App app = new App();
-        int actualResultInteger = app.rectangleArea(2, 3);
+        long actualResultInteger = app.rectangleArea(2, 3);
         double actualResultRealNumber = app.rectangleArea(0.5, 4.0);
         double actualResultIR = app.rectangleArea(2, 3.2);
         double actualResultRI = app.rectangleArea(2.8, 3);
@@ -33,10 +33,10 @@ public class AppTest
     public void area_invalidInput_areaRectangle() {
         // Arrange & Action
         App app = new App();
-        int actualResultInteger = app.rectangleArea(-2, 3);
+        long actualResultInteger = app.rectangleArea(-2, 3);
         double actualResultRealNumber = app.rectangleArea(0.5, -4.0);
         double actualResultZeroNumber = app.rectangleArea(0, 3.2);
-        int actualResultCharacter = app.rectangleArea('a', 3);
+        long actualResultCharacter = app.rectangleArea('a', 3);
 
         // Assert: throw exception as above ;))
     }
